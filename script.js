@@ -5,7 +5,7 @@ const authorName = document.querySelector(".name");
 const speechBtn = document.querySelector(".speech");
 const copyBtn = document.querySelector(".copy");
 const twitterBtn = document.querySelector(".twitter");
-const quoteImage = document.querySelector(".image"); // Image ajoutée
+const quoteImage = document.querySelector(".image"); 
 const synth = speechSynthesis;
 
 const quotes = [
