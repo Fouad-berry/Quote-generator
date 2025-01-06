@@ -36,7 +36,6 @@ const quotes = [
   },
 ];
 
-// Fonction pour afficher une citation aléatoire
 function displayRandomQuote() {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   const randomQuote = quotes[randomIndex];
