@@ -47,7 +47,6 @@ function displayRandomQuote() {
   quoteImage.alt = `Image de ${randomQuote.author}`;
 }
 
-// Fonction pour lire la citation à voix haute
 function speakQuote() {
   if (!quoteBtn.classList.contains("loading")) {
     const voices = synth.getVoices();
@@ -87,7 +86,6 @@ function speakQuote() {
   }
 }
 
-// Fonction pour copier la citation dans le presse-papier
 function copyQuote() {
   navigator.clipboard
     .writeText(`${quoteText.innerText} - ${authorName.innerText}`)
