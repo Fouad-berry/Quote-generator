@@ -1,4 +1,3 @@
-// Sélection des éléments du DOM
 const quoteText = document.querySelector(".quote");
 const quoteBtn = document.querySelector("button");
 const authorName = document.querySelector(".name");
@@ -40,7 +39,6 @@ function displayRandomQuote() {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   const randomQuote = quotes[randomIndex];
 
-  // Mise à jour du texte, de l'auteur et de l'image
   quoteText.innerText = randomQuote.text;
   authorName.innerText = randomQuote.author;
   quoteImage.src = randomQuote.image;
