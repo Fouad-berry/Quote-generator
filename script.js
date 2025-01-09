@@ -102,7 +102,6 @@ function copyQuote() {
     });
 }
 
-// Fonction pour partager la citation sur Twitter
 function shareOnTwitter() {
   const tweetUrl = `https://twitter.com/intent/tweet?text=${quoteText.innerText} - ${authorName.innerText}`;
   window.open(tweetUrl, "_blank");
