@@ -107,13 +107,13 @@ function shareOnTwitter() {
   window.open(tweetUrl, "_blank");
 }
 
-// Ajout des événements
+
 quoteBtn.addEventListener("click", displayRandomQuote);
 speechBtn.addEventListener("click", speakQuote);
 copyBtn.addEventListener("click", copyQuote);
 twitterBtn.addEventListener("click", shareOnTwitter);
 
-// Affiche une citation par défaut au chargement
+
 window.onload = () => {
   displayRandomQuote();
 };
